@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BDF216223910ECE007A442E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDF216123910ECE007A442E /* AppDelegate.m */; };
+		5BDF216523910ECE007A442E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDF216423910ECE007A442E /* SceneDelegate.m */; };
+		5BDF216823910ECE007A442E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDF216723910ECE007A442E /* ViewController.m */; };
+		5BDF216B23910ECE007A442E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BDF216923910ECE007A442E /* Main.storyboard */; };
+		5BDF216D23910ED0007A442E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BDF216C23910ED0007A442E /* Assets.xcassets */; };
+		5BDF217023910ED0007A442E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BDF216E23910ED0007A442E /* LaunchScreen.storyboard */; };
+		5BDF217323910ED0007A442E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDF217223910ED0007A442E /* main.m */; };
+		5BDF218123913AB2007A442E /* RRMQTTManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDF218023913AB2007A442E /* RRMQTTManager.m */; };
+		CA261D6BED3B91E7B138D3CF /* libPods-MQTTDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 026023D83B1AD2249B997A1F /* libPods-MQTTDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		026023D83B1AD2249B997A1F /* libPods-MQTTDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MQTTDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BDF215D23910ECE007A442E /* MQTTDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MQTTDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BDF216023910ECE007A442E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5BDF216123910ECE007A442E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5BDF216323910ECE007A442E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		5BDF216423910ECE007A442E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		5BDF216623910ECE007A442E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5BDF216723910ECE007A442E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5BDF216A23910ECE007A442E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BDF216C23910ED0007A442E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BDF216F23910ED0007A442E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5BDF217123910ED0007A442E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BDF217223910ED0007A442E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5BDF217F23913AB2007A442E /* RRMQTTManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RRMQTTManager.h; sourceTree = "<group>"; };
+		5BDF218023913AB2007A442E /* RRMQTTManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RRMQTTManager.m; sourceTree = "<group>"; };
+		9A3281B2D211C1F4309EF9D9 /* Pods-MQTTDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MQTTDemo.debug.xcconfig"; path = "Target Support Files/Pods-MQTTDemo/Pods-MQTTDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F555A43306C3E34949561B5B /* Pods-MQTTDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MQTTDemo.release.xcconfig"; path = "Target Support Files/Pods-MQTTDemo/Pods-MQTTDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BDF215A23910ECE007A442E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA261D6BED3B91E7B138D3CF /* libPods-MQTTDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BDF215423910ECE007A442E = {
+			isa = PBXGroup;
+			children = (
+				5BDF215F23910ECE007A442E /* MQTTDemo */,
+				5BDF215E23910ECE007A442E /* Products */,
+				F7131509C20848A304509590 /* Pods */,
+				7C18983736221D397A1FA3DC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5BDF215E23910ECE007A442E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BDF215D23910ECE007A442E /* MQTTDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BDF215F23910ECE007A442E /* MQTTDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5BDF216023910ECE007A442E /* AppDelegate.h */,
+				5BDF216123910ECE007A442E /* AppDelegate.m */,
+				5BDF216323910ECE007A442E /* SceneDelegate.h */,
+				5BDF216423910ECE007A442E /* SceneDelegate.m */,
+				5BDF216623910ECE007A442E /* ViewController.h */,
+				5BDF216723910ECE007A442E /* ViewController.m */,
+				5BDF217F23913AB2007A442E /* RRMQTTManager.h */,
+				5BDF218023913AB2007A442E /* RRMQTTManager.m */,
+				5BDF216923910ECE007A442E /* Main.storyboard */,
+				5BDF216C23910ED0007A442E /* Assets.xcassets */,
+				5BDF216E23910ED0007A442E /* LaunchScreen.storyboard */,
+				5BDF217123910ED0007A442E /* Info.plist */,
+				5BDF217223910ED0007A442E /* main.m */,
+			);
+			path = MQTTDemo;
+			sourceTree = "<group>";
+		};
+		7C18983736221D397A1FA3DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				026023D83B1AD2249B997A1F /* libPods-MQTTDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7131509C20848A304509590 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A3281B2D211C1F4309EF9D9 /* Pods-MQTTDemo.debug.xcconfig */,
+				F555A43306C3E34949561B5B /* Pods-MQTTDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BDF215C23910ECE007A442E /* MQTTDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BDF217623910ED0007A442E /* Build configuration list for PBXNativeTarget "MQTTDemo" */;
+			buildPhases = (
+				BA734E7138D760AC0FD9A010 /* [CP] Check Pods Manifest.lock */,
+				5BDF215923910ECE007A442E /* Sources */,
+				5BDF215A23910ECE007A442E /* Frameworks */,
+				5BDF215B23910ECE007A442E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MQTTDemo;
+			productName = MQTTDemo;
+			productReference = 5BDF215D23910ECE007A442E /* MQTTDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BDF215523910ECE007A442E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RR;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Twisted Fate";
+				TargetAttributes = {
+					5BDF215C23910ECE007A442E = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = 5BDF215823910ECE007A442E /* Build configuration list for PBXProject "MQTTDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BDF215423910ECE007A442E;
+			productRefGroup = 5BDF215E23910ECE007A442E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BDF215C23910ECE007A442E /* MQTTDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BDF215B23910ECE007A442E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BDF217023910ED0007A442E /* LaunchScreen.storyboard in Resources */,
+				5BDF216D23910ED0007A442E /* Assets.xcassets in Resources */,
+				5BDF216B23910ECE007A442E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BA734E7138D760AC0FD9A010 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MQTTDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BDF215923910ECE007A442E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BDF218123913AB2007A442E /* RRMQTTManager.m in Sources */,
+				5BDF216823910ECE007A442E /* ViewController.m in Sources */,
+				5BDF216223910ECE007A442E /* AppDelegate.m in Sources */,
+				5BDF217323910ED0007A442E /* main.m in Sources */,
+				5BDF216523910ECE007A442E /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5BDF216923910ECE007A442E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BDF216A23910ECE007A442E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5BDF216E23910ED0007A442E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BDF216F23910ED0007A442E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BDF217423910ED0007A442E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5BDF217523910ED0007A442E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BDF217723910ED0007A442E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A3281B2D211C1F4309EF9D9 /* Pods-MQTTDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83J8888V77;
+				INFOPLIST_FILE = MQTTDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.twistedfate.www.MQTTDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BDF217823910ED0007A442E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F555A43306C3E34949561B5B /* Pods-MQTTDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83J8888V77;
+				INFOPLIST_FILE = MQTTDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.twistedfate.www.MQTTDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BDF215823910ECE007A442E /* Build configuration list for PBXProject "MQTTDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BDF217423910ED0007A442E /* Debug */,
+				5BDF217523910ED0007A442E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BDF217623910ED0007A442E /* Build configuration list for PBXNativeTarget "MQTTDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BDF217723910ED0007A442E /* Debug */,
+				5BDF217823910ED0007A442E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BDF215523910ECE007A442E /* Project object */;
+}
